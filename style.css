@@ -1,0 +1,21 @@
+.ball {
+  width: 90px;
+  height: 90px;
+  background: #000000;
+  border-radius: 50%;
+  animation-name: ball;
+  position: relative;
+  animation-name: ball;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 30px;
+}
+@keyframes ball {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 90px);
+  }
+}
